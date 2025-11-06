@@ -30,4 +30,19 @@ ou notebook) para 'main'
 
 9) Referenciar o repositório local
 para o repositório remoto (Github)
-gi
+git remote add origin https://github.com/adelsongomes8-source/crud-python.git
+
+10) Realizar o envio do repositório
+local para o remoto
+git push -u origin main
+
+OBS: depois de confirmado o envio do repositório
+local para o remoto, toda alteração posterior
+deverá ser enviada ao Github com os comandos
+a seguir
+
+git add .
+
+git commit -m "Nova mensagem"
+
+git push
